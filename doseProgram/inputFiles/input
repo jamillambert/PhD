@@ -1,0 +1,53 @@
+inputAll
+calcPenumbra
+setVariables 300 60 20 1 0 300 10 3
+setMovement -10 0 0 0.0125 0.25 0 0
+4
+histogram 1b10x
+setMovement 10 0 0 -0.0125 -0.25 0 0
+4
+histogram 1b-10x
+setMovement -20 0 0 0.025 0.5 0 0
+4
+histogram 1b20x
+setMovement 20 0 0 -0.025 -0.5 0 0
+4
+histogram 1b-20x
+setMovement 0 -10 0 0 0 0.0125 0.25
+4
+histogram 1b10y
+setMovement 0 10 0 0 0 -0.0125 -0.25
+4
+histogram 1b-10y
+setMovement 0 20 0 0 0 0.025 0.5
+4
+histogram 1b20y
+setMovement 0 20 0 0 0 -0.025 -0.5
+4
+histogram 1b-20y
+setVariables 300 60 20 2 0 300 10 3
+setMovement -10 0 0 0.00625 0.125 0 0
+4
+histogram 2b10x
+setMovement 10 0 0 -0.00625 -0.125 0 0
+4
+histogram 2b-10x
+setMovement -20 0 0 0.0125 0.25 0 0
+4
+histogram 2b20x
+setMovement 20 0 0 -0.0125 -0.25 0 0
+4
+histogram 2b-20x
+setMovement 0 -10 0 0 0 0.00625 0.125
+4
+histogram 2b10y
+setMovement 0 10 0 0 0 -0.00625 -0.125
+4
+histogram 2b-10y
+setMovement 0 20 0 0 0 0.0125 0.25
+4
+histogram 2b20y
+setMovement 0 20 0 0 0 -0.0125 -0.25
+4
+histogram 2b-20y
+exit
