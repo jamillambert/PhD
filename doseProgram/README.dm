@@ -1,4 +1,5 @@
-This Program calculates the dose deliverd by a proton beam using
+This Program calculates the dose deliverd by a single energy proton beam
+or a spread out Bragg peak with a given peak energy and weight list, using
 formula from M. Lee et. al 1993. and proton energy data from
 J. Janni 1982.
 It calculates the dose delivered by a passively scatterd proton beam
